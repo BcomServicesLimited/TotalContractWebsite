@@ -262,7 +262,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .contact__grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: flex-start;
 }
@@ -270,6 +270,17 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .contact__info .section__title--red { margin-bottom: 20px; }
 
 .contact__phone { color: var(--text); }
+
+.contact__email-block { margin-top: 16px; }
+
+.contact__email-link {
+  font-family: var(--font-head);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--red);
+  text-decoration: underline;
+}
+.contact__email-link:hover { color: var(--black); }
 
 .contact__form {
   display: flex;
